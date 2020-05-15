@@ -11,7 +11,7 @@ import rootReducer from './reducers';
 
 //Create redux store
 const store = createStore(rootReducer, applyMiddleware(thunk, logger));
-console.log(`OUR REDUX STORE -->`, store);
+// console.log(`OUR REDUX STORE -->`, store);
 
 
 ReactDOM.render(
