@@ -13,8 +13,7 @@ import {
 export const initialState = {
     smurf:[],
     isFetching: false,    
-    error:'', 
-    id: Math.random()   
+    error:'',       
   
 }
 
@@ -39,7 +38,26 @@ export const smurfReducer = (state=initialState, action) => {
                 ...state,
                 isFetching:false,
                 error: action.payload
-            }    
+            }  
+            
+        case ADD_CHARACTER_START:
+            return {
+                ...state,
+                isFetching: true
+            }  
+        case ADD_CHARACTER_SUCESS:
+            return {
+                ...state,
+                isFetching:false,
+                error:'',                
+                smurf:[...state.smurf,action.payload]
+            } 
+            
+        case ADD_CHARACTER_FAIL:
+            return {
+                ...state,
+                error: action.payload
+            }   
         default:
             return state;
     }

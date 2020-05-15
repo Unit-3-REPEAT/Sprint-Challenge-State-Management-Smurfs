@@ -1,3 +1,49 @@
 .App {
   text-align: center;
 }
+
+.smurfCharacter {
+  background-color:#62cdfd;
+  padding:10px;  
+  width:60%;
+  margin:0 auto;
+  margin-top:10px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 25px;
+  color:white;
+}
+
+.smurfContainer {
+  margin-top:0px;
+  background-color:#e2d900;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: #fe0108;
+  padding:5%;
+  color:white;
+}
+
+.smurfHeader {
+  margin-top: 0px;
+  
+}
+
+.main-header {
+  background-color:#7d7878 ;
+  color:white;
+  margin:0;
+}
+
+.input {
+  height:3vh;
+  padding:5px;
+  margin:2%;
+}
+
+.button {
+  width:28%;
+  padding:10px;
+}
+

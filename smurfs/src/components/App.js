@@ -9,7 +9,7 @@ const App = () => {
   
     return (
       <div className="App">
-        <h1>SMURFS VILLAGE!</h1>
+        <h1 className='main-header'>SMURFS VILLAGE!</h1>
         <Form/>
         <SmurfCharactesList/>
         

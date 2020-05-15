@@ -29,7 +29,7 @@ export const addCharacter = input => dispatch => {
     axios
     .post('http://localhost:3333/smurfs', input)
     .then(response => {
-        console.log(`POST REQUEST`, response)
+        // console.log(`POST REQUEST`, response)
         dispatch({type: ADD_CHARACTER_SUCESS, payload:response.data})
     })
     .catch(err => {
