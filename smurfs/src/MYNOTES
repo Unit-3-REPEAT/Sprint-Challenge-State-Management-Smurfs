@@ -1,0 +1,8 @@
+// To build our app we are going to follow these steps:
+// setup "empty" reducer & initial state
+// setup store and provider
+// connect component(s)
+// add events & events handlers in UI
+// build action creators
+// write the reducer logic for actions
+// finish your component(s)
